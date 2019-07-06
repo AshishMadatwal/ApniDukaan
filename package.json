@@ -1,0 +1,26 @@
+{
+  "name": "meanauthapp",
+  "version": "1.0.1",
+  "description": "MEAN stack authentication app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "@angular/cli": "^7.3.9",
+    "bcryptjs": "*",
+    "bluebird": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "http-server": "^0.11.1",
+    "jsonwebtoken": "*",
+    "mongoose": "^5.5.11",
+    "passport": "*",
+    "passport-jwt": "^4.0.0",
+    "stripe": "^7.3.0"
+  },
+  "author": "Ashish Madatwal",
+  "license": "ISC"
+}
